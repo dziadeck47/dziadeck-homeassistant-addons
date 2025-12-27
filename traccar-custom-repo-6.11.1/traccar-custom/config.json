@@ -1,0 +1,15 @@
+{
+  "name": "Traccar Custom",
+  "version": "6.11.1",
+  "slug": "traccar_custom",
+  "description": "Traccar z najnowszą wersją serwera (ZIP)",
+  "arch": ["amd64", "armv7", "armhf"],
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "8082/tcp": 8082
+  },
+  "map": ["config:rw"],
+  "options": {},
+  "schema": {}
+}
